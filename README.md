@@ -43,6 +43,7 @@ If you're using Composer, you can include this repo directly:
 "require": {
   "thriveweb/mpdf": "dev-main"
 }
+```
 
 Installation
 ============
