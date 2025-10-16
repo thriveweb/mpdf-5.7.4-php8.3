@@ -1,0 +1,653 @@
+body {
+    background-color: white;
+    font-family: Helvetica, Arial, arial, sans-serif;
+    font-size: 10.5pt;
+    line-height: 15pt;
+    background: #F1F0EA;
+}
+
+.goth {
+    font-family: 'tradegoth';
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'proxima';
+    font-weight: bold;
+    position: relative;
+    font-weight: normal;
+    margin-bottom: 20pt;
+    margin-top: 20pt;
+    letter-spacing: 0.5pt;
+}
+
+h1 {
+    font-size: 40pt;
+    line-height: 45pt;
+}
+
+h2 {
+    font-size: 30pt;
+    line-height: 35pt;
+}
+
+h3 {
+    font-size: 22pt;
+    line-height: 28pt;
+}
+
+h4 {
+    font-size: 18pt;
+    line-height: 22pt;
+}
+
+h5 {
+    font-size: 15pt;
+    line-height: 18pt;
+}
+
+h6 {
+    font-size: 13pt;
+    line-height: 18pt;
+}
+
+h1:first-child,
+h2:first-child,
+h3:first-child,
+h4:first-child,
+p {
+    margin-top: 0;
+}
+
+.aright {
+    text-align: right;
+}
+
+body #main_cont p,
+body #main_cont,
+body #main_cont li {
+    font-size: 9.5pt;
+    line-height: 14pt;
+}
+
+#logo {
+    /* background-image: url("/quote-gen/theme/bg.png"); Can't find dir */
+    background-repeat: no-repeat;
+    width: 3600px;
+    height: 915px;
+    position: absolute;
+    top: 0;
+    left: 60px;
+    z-index: 0;
+}
+
+#bg {
+    /* background-image: url("/quote-gen/theme/bg.png"); Can't find dir */
+    background-repeat: no-repeat;
+    width: 3600px;
+    height: 1687px;
+    position: absolute;
+    bottom: 0;
+    right: 0px;
+    z-index: 0;
+}
+
+#bg_design {
+    /* background-image: url("/quote-gen/theme/bg.png"); Can't find dir */
+    background-repeat: no-repeat;
+    width: 1080px;
+    height: 1595px;
+    position: absolute;
+    bottom: -350px;
+    right: 60px;
+    z-index: 0;
+}
+
+#bg_intro {
+    /* background-image: url("/quote-gen/theme/bg.png"); Can't find dir */
+    background-repeat: no-repeat;
+    width: 1080px;
+    height: 2103px;
+    position: absolute;
+    bottom: 0px;
+    right: 60px;
+    z-index: 0;
+}
+
+#bg_seo {
+    /* background-image: url("/quote-gen/theme/bg.png"); Can't find dir */
+    background-repeat: no-repeat;
+    width: 1080px;
+    height: 1595px;
+    position: absolute;
+    bottom: -80px;
+    right: 60px;
+    z-index: 0;
+}
+
+ul,
+ol {
+    text-indent: 20pt;
+}
+
+p,
+li {
+    margin-top: 10pt;
+    margin-bottom: 10pt;
+}
+
+a {
+    color: #000000;
+    text-decoration: underline;
+}
+
+a {
+    color: #772188;
+    text-decoration: none;
+}
+
+.lcont65 a {
+    color: #772188;
+    text-decoration: none;
+}
+
+.lcont75 a {
+    color: #772188;
+    text-decoration: none;
+}
+
+em {
+    color: gray;
+}
+
+.gray {
+    color: #a1a1a1;
+}
+
+#date {
+    margin-top: 60pt;
+}
+
+.proj_title {
+    margin: 0;
+}
+
+h2.proj_title {
+    margin-bottom: 10px;
+    padding-top: 850px;
+}
+
+h4.proj_title {
+    margin-bottom: 20pt;
+}
+
+.green {
+    color: #3182FF;
+}
+
+#proj_details {
+    width: 65%;
+}
+
+#proj_details p {
+    font-size: 8.5pt;
+    line-height: 13pt;
+}
+
+#proj_details .location {
+    padding-top: 80px;
+}
+
+.large_text p {
+    font-size: 13.5pt;
+    line-height: 20pt;
+}
+
+.large_text ul {
+    line-height: 20pt;
+}
+
+.large_text li {
+    font-size: 13.5pt;
+}
+
+#date {
+    padding-top: 30px;
+}
+
+.lcol25 {
+    width: 33%;
+    float: left;
+}
+
+.lcol {
+    width: 33%;
+    float: left;
+}
+
+.rcol {
+    width: 33%;
+    float: right;
+}
+
+.lcont {
+    width: 60%;
+    float: left;
+}
+
+.rcont {
+    width: 35%;
+    float: right;
+}
+
+.rcont_list {
+    width: 28%;
+    float: right;
+    padding-top: 195px;
+}
+
+.additional_elements.rcont_list h5 {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.lcont85 {
+    width: 80%;
+    float: left;
+}
+
+.rcont15 {
+    width: 15%;
+    float: right;
+}
+
+.lcont_last {
+    width: 70%;
+    float: left;
+}
+
+.rcont_last {
+    width: 20%;
+    float: right;
+}
+
+.lcont_last p {
+    font-size: 10pt;
+    line-height: 12pt
+}
+
+.lcont_last li {
+    font-size: 10pt;
+    line-height: 12pt
+}
+
+.lcont_last p strong {
+    padding-top: 20pt;
+}
+
+.lcont65 {
+    width: 65%;
+    float: left;
+}
+
+.lcont75 {
+    width: 75%;
+    float: left;
+}
+
+.rcont20,
+.rcont_last {
+    width: 20%;
+    float: right;
+    padding-top: 44pt;
+}
+
+.lcont90 {
+    width: 90%;
+    float: left;
+}
+
+
+/* WORKING ATTEMPT */
+
+.tree_first {
+    margin-bottom: 40px;
+}
+
+.tree {
+    font-size: 10pt;
+    line-height: 12pt
+}
+
+.tree ul,
+.tree ul ul {
+    list-style-type: none;
+}
+
+.tree div {
+    background-repeat: no-repeat;
+    xbackground-size: 12pt;
+}
+
+.tree p {
+    padding: 0;
+    margin: 0;
+    line-height: 14pt;
+    font-size: 12pt;
+}
+
+.tree .t1 {
+    padding-top: 5pt;
+    padding-bottom: 5pt;
+    padding-left: 0pt;
+}
+
+.tree .t1i {
+    padding-top: 8pt;
+    padding-bottom: 5pt;
+    padding-left: 27pt;
+    background-position: 2pt 6pt;
+}
+
+.tree .t2 {
+    padding-top: 15pt;
+    padding-bottom: 0pt;
+    padding-left: 6pt;
+}
+
+.tree .t2i {
+    margin: 0;
+    padding-top: 5pt;
+    padding-bottom: 5pt;
+    padding-left: 18pt;
+    margin-left: 9.5pt;
+    line-height: 20pt;
+    background-repeat: no-repeat;
+    background-position: 0.2pt 0pt;
+}
+
+.tree .t2i p {
+    font-size: 10pt;
+}
+
+.scont {
+    width: 80%;
+}
+
+.rcol15 p,
+.rcont p,
+.rcont20 p,
+.rcont_last p {
+    color: gray;
+    font-size: 8pt;
+    line-height: 11pt;
+}
+
+.cont70 {
+    width: 75%;
+    float: left;
+}
+
+.budget_cont {
+    width: 95%;
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
+
+.header p {
+    font-family: 'proxima';
+    font-weight: bold;
+    text-align: right;
+    padding-top: 45pt;
+    font-size: 25pt;
+    color: #d9dde0;
+}
+
+.border {
+    border-bottom: solid 1pt black;
+}
+
+.light_border {
+    border-top: solid 1pt #dbdbdb;
+    padding-top: 15pt;
+}
+
+.twrap {
+    padding-top: 5pt;
+    padding-bottom: 10pt;
+}
+
+.twrap span {
+    color: #54a36d;
+}
+
+.tleft {
+    float: left;
+    width: 73%;
+}
+
+.tright {
+    float: right;
+    width: 25%;
+    text-align: right;
+}
+
+.tacenter {
+    text-align: center;
+}
+
+#support {
+    margin-top: 280px;
+}
+
+#timeline {}
+
+.week,
+.phase {
+    float: left;
+}
+
+.phase h5 {
+    color: #bababa;
+    line-height: 6pt;
+    height: 6pt;
+    font-size: 10pt;
+    margin-bottom: 5pt;
+    margin-top: 5pt;
+}
+
+.Design {
+    margin-top: 0pt;
+}
+
+.Development {
+    margin-top: 10pt;
+}
+
+.Support {
+    margin-top: 10pt;
+}
+
+.pwrap {
+    border-bottom: solid 3pt #c6c6c6;
+}
+
+
+/*
+.plast{
+	border-right: solid 1pt #c6c6c6;
+}
+
+
+.w_design{
+	margin-top: -55pt;
+}
+
+.w_development{
+	margin-top: -10pt;
+}
+
+.w_support{
+	margin-top: 15pt;
+}
+*/
+
+.wwrap {
+    margin-right: 2pt;
+    padding: 0 5pt 5pt 5pt;
+    border-left: dotted 1pt grey;
+}
+
+.week #w1 {
+    border-left: none;
+}
+
+.week h5 {
+    background-color: black;
+    color: white;
+    padding: 5pt;
+    font-size: 9pt;
+    margin-top: 0;
+}
+
+#w1 h5 {
+    border-bottom: 5pt outset #3182FF;
+}
+
+#w2 h5 {
+    border-bottom: 5pt outset #FE4200;
+}
+
+#w3 h5 {
+    border-bottom: 5pt outset #FEAA00;
+}
+
+#w4 h5 {
+    border-bottom: 5pt outset #FFB5D1;
+}
+
+#w5 h5 {
+    border-bottom: 5pt outset #A3CFFF;
+}
+
+#w6 h5 {
+    border-bottom: 5pt outset #D8CFB6;
+}
+
+.week p,
+.week li {
+    font-size: 8pt;
+    line-height: 8pt;
+}
+
+.week ul {
+    text-indent: 0;
+}
+
+#copy {
+    margin-top: 0pt;
+}
+
+.vmarg {
+    margin-top: 10pt;
+}
+
+.branding {
+    width: 30%;
+    float: left;
+    padding-right: 3%;
+}
+
+.branding h3 {
+    font-size: 18pt;
+    margin-top: 0;
+}
+
+.branding h3,
+.branding p {
+    padding: 0;
+    margin: 0;
+}
+
+.branding p {
+    padding-bottom: 10pt;
+}
+
+img#graph {
+    width: 100%;
+    margin-bottom: 15pt;
+    margin-top: 15pt;
+}
+
+.additional_elements {
+    width: 31%;
+    float: left;
+    xheight: 55pt;
+    padding: 10pt 15pt 0 0;
+    position: relative;
+}
+
+.additional_elements img {
+    float: left;
+}
+
+.additional_elements h5 {
+    font-size: 16pt;
+    line-height: 18pt;
+    /* margin: 5pt 0 5pt 0; */
+    margin-top: 5pt;
+    margin-right: 0;
+    margin-bottom: 5pt;
+    margin-left: 0;
+    padding: 0;
+}
+
+.additional_elements p {
+    font-size: 8pt;
+    line-height: 10pt;
+}
+
+.additional_elements p {
+    font-size: 10pt;
+    line-height: 14pt;
+}
+
+.tick {
+    vertical-align: bottom;
+    float: left;
+    margin-top: 15px;
+}
+
+.barrow {
+    vertical-align: top;
+    float: left;
+}
+
+.big_text_icon {
+    margin-top: 15px;
+}
+
+#key {
+    margin-top: 10pt;
+}
+
+#key p {
+    vertical-align: bottom;
+    font-size: 10pt;
+    line-height: 14pt;
+    margin: 5pt 0 pt 0;
+    padding: 0;
+}
+
+#inspiration {}
+
+#research {}
+
+#design {}
